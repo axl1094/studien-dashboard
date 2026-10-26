@@ -1,0 +1,255 @@
+{
+    "name": "Angewandte Künstliche Intelligenz",
+    "zielabschluss": "2028-04-30",
+    "zielnote": 2.0,
+    "gesamt_ects": 180,
+    "semester": [
+        {
+            "nummer": 1,
+            "module": [
+                {
+                    "name": "Artificial Intelligence",
+                    "ects": 5,
+                    "status": "ABGESCHLOSSEN",
+                    "note": 2.0,
+                    "anerkannt": false
+                },
+                {
+                    "name": "Einführung in das wissenschaftliche Arbeiten für IT und Technik",
+                    "ects": 5,
+                    "status": "ABGESCHLOSSEN",
+                    "note": 2.0,
+                    "anerkannt": false
+                },
+                {
+                    "name": "Einführung in die Programmierung mit Python",
+                    "ects": 5,
+                    "status": "ABGESCHLOSSEN",
+                    "note": 2.3,
+                    "anerkannt": false
+                },
+                {
+                    "name": "Mathematik: Analysis",
+                    "ects": 5,
+                    "status": "AKTIV",
+                    "note": null,
+                    "anerkannt": false
+                },
+                {
+                    "name": "Kollaboratives Arbeiten",
+                    "ects": 5,
+                    "status": "ABGESCHLOSSEN",
+                    "note": null,
+                    "anerkannt": true
+                },
+                {
+                    "name": "Statistik - Wahrscheinlichkeit und deskriptive Statistik",
+                    "ects": 5,
+                    "status": "ABGESCHLOSSEN",
+                    "note": 1.0,
+                    "anerkannt": false
+                }
+            ]
+        },
+        {
+            "nummer": 2,
+            "module": [
+                {
+                    "name": "Projekt: Objektorientierte und funktionale Programmierung mit Python",
+                    "ects": 5,
+                    "status": "AKTIV",
+                    "note": null,
+                    "anerkannt": false
+                },
+                {
+                    "name": "Mathematik: Lineare Algebra",
+                    "ects": 5,
+                    "status": "AKTIV",
+                    "note": null,
+                    "anerkannt": false
+                },
+                {
+                    "name": "Interkulturelle und ethische Handlungskompetenzen",
+                    "ects": 5,
+                    "status": "ABGESCHLOSSEN",
+                    "note": 2.7,
+                    "anerkannt": false
+                },
+                {
+                    "name": "Statistik - Induktive Statistik",
+                    "ects": 5,
+                    "status": "OFFEN",
+                    "note": null,
+                    "anerkannt": false
+                },
+                {
+                    "name": "Projekt: Cloud Programming",
+                    "ects": 5,
+                    "status": "AKTIV",
+                    "note": 5.0,
+                    "anerkannt": false
+                },
+                {
+                    "name": "Cloud Computing",
+                    "ects": 5,
+                    "status": "ABGESCHLOSSEN",
+                    "note": 2.7,
+                    "anerkannt": false
+                }
+            ]
+        },
+        {
+            "nummer": 3,
+            "module": [
+                {
+                    "name": "Maschinelles Lernen - Supervised Learning",
+                    "ects": 5,
+                    "status": "OFFEN",
+                    "note": null,
+                    "anerkannt": false
+                },
+                {
+                    "name": "Maschinelles Lernen - Unsupervised Learning und Feature Engineering",
+                    "ects": 5,
+                    "status": "OFFEN",
+                    "note": null,
+                    "anerkannt": false
+                },
+                {
+                    "name": "Einführung in Computer Vision",
+                    "ects": 5,
+                    "status": "AKTIV",
+                    "note": null,
+                    "anerkannt": false
+                },
+                {
+                    "name": "Einführung in das Reinforcement Learning",
+                    "ects": 5,
+                    "status": "OFFEN",
+                    "note": null,
+                    "anerkannt": false
+                },
+                {
+                    "name": "Projekt: Computer Vision",
+                    "ects": 5,
+                    "status": "OFFEN",
+                    "note": null,
+                    "anerkannt": false
+                },
+                {
+                    "name": "Neuronale Netze und Deep Learning",
+                    "ects": 5,
+                    "status": "OFFEN",
+                    "note": null,
+                    "anerkannt": false
+                }
+            ]
+        },
+        {
+            "nummer": 4,
+            "module": [
+                {
+                    "name": "Einführung in NLP",
+                    "ects": 5,
+                    "status": "OFFEN",
+                    "note": null,
+                    "anerkannt": false
+                },
+                {
+                    "name": "Projekt: NLP",
+                    "ects": 5,
+                    "status": "OFFEN",
+                    "note": null,
+                    "anerkannt": false
+                },
+                {
+                    "name": "Data Science Software Engineering",
+                    "ects": 5,
+                    "status": "OFFEN",
+                    "note": null,
+                    "anerkannt": false
+                },
+                {
+                    "name": "Projekt: Vom Modell zum Produktvertrieb",
+                    "ects": 5,
+                    "status": "OFFEN",
+                    "note": null,
+                    "anerkannt": false
+                },
+                {
+                    "name": "Einführung in Datenschutz und IT-Sicherheit",
+                    "ects": 5,
+                    "status": "OFFEN",
+                    "note": null,
+                    "anerkannt": false
+                },
+                {
+                    "name": "Seminar: Ethische Fragen der Data Science",
+                    "ects": 5,
+                    "status": "OFFEN",
+                    "note": null,
+                    "anerkannt": false
+                }
+            ]
+        },
+        {
+            "nummer": 5,
+            "module": [
+                {
+                    "name": "UX-Projekt",
+                    "ects": 5,
+                    "status": "OFFEN",
+                    "note": null,
+                    "anerkannt": false
+                },
+                {
+                    "name": "Projekt: Edge AI",
+                    "ects": 5,
+                    "status": "OFFEN",
+                    "note": null,
+                    "anerkannt": false
+                },
+                {
+                    "name": "Einführung in die Robotik",
+                    "ects": 5,
+                    "status": "OFFEN",
+                    "note": null,
+                    "anerkannt": false
+                },
+                {
+                    "name": "Projekt: Agiles Projektmanagement",
+                    "ects": 5,
+                    "status": "OFFEN",
+                    "note": null,
+                    "anerkannt": false
+                },
+                {
+                    "name": "User Experience",
+                    "ects": 5,
+                    "status": "OFFEN",
+                    "note": null,
+                    "anerkannt": false
+                }
+            ]
+        },
+        {
+            "nummer": 6,
+            "module": [
+                {
+                    "name": "Bachelorarbeit",
+                    "ects": 10,
+                    "status": "OFFEN",
+                    "note": null,
+                    "anerkannt": false
+                },
+                {
+                    "name": "Wahlpflichtbereich - noch nicht gewählt",
+                    "ects": 25,
+                    "status": "OFFEN",
+                    "note": null,
+                    "anerkannt": false
+                }
+            ]
+        }
+    ]
+}
