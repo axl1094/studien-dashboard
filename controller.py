@@ -8,6 +8,7 @@ class StudienController:
         self.speicher = JsonSpeicher()
         self.studiengang = None
 
+    # Der Controller verbindet Datenmodell, Speicherung und Benutzeroberfläche.
     def laden(self):
         self.studiengang = self.speicher.laden(self.dateiname)
 

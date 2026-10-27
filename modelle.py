@@ -14,6 +14,7 @@ class Pruefungsleistung:
 
     @property
     def bestanden(self):
+        # Anerkannte Prüfungsleistungen gelten auch ohne Note als bestanden.
         if self.anerkannt:
             return True
 
@@ -115,6 +116,7 @@ class Studiengang:
         gewichtete_summe = 0.0
         benotete_ects = 0
 
+        #Für den Durchschnitt werden nur abgeschlossene und benotete Module berücksichtigt.
         for semester in self.semester:
             for modul in semester.module:
                 if modul.status == ModulStatus.ABGESCHLOSSEN and modul.pruefungsleistung.note is not None:
@@ -130,6 +132,7 @@ class Studiengang:
     def verbleibende_monate(self):
         heute = date.today()
 
+        # Berechnung der verbleibenden Zeit bis zum geplanten Studienabschluss.
         monate = (self.zielabschluss.year - heute.year) * 12 + self.zielabschluss.month - heute.month
 
         if heute.day > self.zielabschluss.day:

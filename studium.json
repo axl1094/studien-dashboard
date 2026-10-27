@@ -45,8 +45,8 @@
                 {
                     "name": "Statistik - Wahrscheinlichkeit und deskriptive Statistik",
                     "ects": 5,
-                    "status": "ABGESCHLOSSEN",
-                    "note": 1.0,
+                    "status": "AKTIV",
+                    "note": null,
                     "anerkannt": false
                 }
             ]
@@ -64,7 +64,7 @@
                 {
                     "name": "Mathematik: Lineare Algebra",
                     "ects": 5,
-                    "status": "AKTIV",
+                    "status": "OFFEN",
                     "note": null,
                     "anerkannt": false
                 },
@@ -85,8 +85,8 @@
                 {
                     "name": "Projekt: Cloud Programming",
                     "ects": 5,
-                    "status": "AKTIV",
-                    "note": 5.0,
+                    "status": "OFFEN",
+                    "note": null,
                     "anerkannt": false
                 },
                 {

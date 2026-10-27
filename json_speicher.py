@@ -6,6 +6,7 @@ from modelle import Studiengang, Modul, ModulStatus
 class JsonSpeicher:
 
     def speichern(self, studiengang, dateiname):
+        # Die Python-Objekte werden in eine JSON-kompatible Struktur umgewandelt.
         daten = {
             "name": studiengang.name,
             "zielabschluss": studiengang.zielabschluss.isoformat(),
@@ -56,6 +57,7 @@ class JsonSpeicher:
                 modul.pruefungsleistung.note = modul_daten["note"]
                 modul.pruefungsleistung.anerkannt = modul_daten.get("anerkannt", False)
 
+                # Der gespeicherte Status wird über die vorgesehenen Modellmethoden wiederhergestellt.
                 status = ModulStatus(modul_daten["status"])
 
                 if status == ModulStatus.AKTIV:
